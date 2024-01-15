@@ -1,7 +1,7 @@
 {
   "name": "hexo-filter-tikzjax",
   "description": "Server side PGF/TikZ renderer plugin for Hexo.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "prin <hi@prin.studio>",
   "license": "MIT",
   "homepage": "https://github.com/prinsss/hexo-filter-tikzjax",
