@@ -1,0 +1,29 @@
+{
+  "name": "hexo-filter-tikzjax",
+  "description": "Server side PGF/TikZ renderer plugin for Hexo.",
+  "version": "1.0.0-alpha.1",
+  "author": "prin <hi@prin.studio>",
+  "license": "MIT",
+  "homepage": "https://github.com/prinsss/hexo-filter-tikzjax",
+  "bugs": "https://github.com/prinsss/hexo-filter-tikzjax/issues",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-localstorage": "^3.0.5",
+    "node-tikzjax": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/hexo": "^3.8.12",
+    "@types/node": "^20.11.0",
+    "@types/node-localstorage": "^1.3.3",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
