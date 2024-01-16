@@ -54,6 +54,8 @@ Wrap you Ti*k*Z code in a Markdown code block with language `tikz`, and you are 
 
 Ti*k*Z code are rendered as static SVG images during the Hexo generation process. The SVG images are then embedded into the HTML pages so there is no client side JavaScript involved. The images will be updated automatically when you change the code.
 
+For a full list of supported Ti*k*Z features and $\LaTeX$ packages, please refer to the [node-tikzjax](https://github.com/prinsss/node-tikzjax#usage) documentation.
+
 > [!TIP]
 > Run `hexo generate` or `hexo server` with `--debug` option to see the debug messages, including the console output of the TeX engine. To clear the internal SVG cache, run `rm -rf node_modules/hexo-filter-tikzjax/.cache`.
 
