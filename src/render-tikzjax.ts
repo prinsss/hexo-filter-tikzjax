@@ -40,7 +40,11 @@ export async function renderTikzjax(this: Hexo, data: PostData): Promise<PostDat
       debug('Processing TikZ graphic...', hash);
       svg = await new Promise((resolve) => {
         taskQueue.enqueue(async () => {
-          const svg = await tex2svg(input, { showConsole: this.env.debug });
+          const svg = await tex2svg(input, {
+            showConsole: this.env.debug,
+            ...config.tikzjax_options,
+          });
+
           resolve(svg);
         });
       });

@@ -5,7 +5,7 @@ import { TeXOptions, SvgOptions } from 'node-tikzjax';
 
 export const defaultConfig = {
   append_css: true,
-  inline_style: '.tikzjax { display: block; text-align: center; }',
+  inline_style: '.tikzjax { display: block; text-align: center; user-select: none; }',
   font_css_url: 'https://cdn.jsdelivr.net/npm/node-tikzjax@latest/css/fonts.css',
   every_page: false,
   tikzjax_options: {} as TeXOptions & SvgOptions,
